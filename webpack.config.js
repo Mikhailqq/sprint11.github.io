@@ -31,14 +31,12 @@ module.exports = {
             },
             {
                 test: /\.css$/i,
-                use: [(isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
-          {
-            loader: 'css-loader',
-            options: {
-              importLoaders: 2
-            }
-          },
-          'postcss-loader']
+        use: [isDev ? 'style-loader' : MiniCssExtractPlugin.loader, {
+          loader: "css-loader",
+          options: {
+            importLoaders: 2
+          }
+        }, 'postcss-loader'],
             },
             {
                 test: /\.(png|jpe?g|svg|gif)$/i,
