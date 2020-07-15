@@ -1,0 +1,19 @@
+{
+  "name": "sprint11.github.io",
+  "version": "0.0.1",
+  "description": "",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikhailqq/sprint11.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikhailqq/sprint11.github.io/issues"
+  },
+  "homepage": "https://github.com/Mikhailqq/sprint11.github.io#readme"
+}
