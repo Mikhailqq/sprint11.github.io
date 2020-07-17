@@ -6,7 +6,7 @@
   ES6, Babel, OOP, CSS3, HTML5, Webpack, OOP, BEM
 ---
 ### Пакеты которые используются в сборках:
-* Babel CLI
+* [Babel CLI](https://babeljs.io/docs/en/babel-cli#docsNav)
 * Babel Core
 * Babel Preset Evnvironment
 * Сore JS
