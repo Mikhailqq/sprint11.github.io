@@ -47,6 +47,8 @@ import {UserInfo} from './js/UserInfo.js';
   }
  }
 
+const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort11/' : 'https://praktikum.tk/cohort11/';
+
 // Загрузка карточек с сервера
  const api = new Api(options);
 
