@@ -7,16 +7,16 @@
 ---
 ### Пакеты которые используются в сборках:
 * [Babel CLI](https://babeljs.io/docs/en/babel-cli#docsNav)
-* Babel Core
-* Babel Preset Evnvironment
-* Сore JS
-* PostCSS
-* Define plugin
-* Style loader
-* Optimize CSS assets
-* File loader
-* Image Webpack loader
-* Cross-Env
+* [Babel Core](https://babeljs.io/docs/en/babel-core)
+* [Babel Preset Evnvironment](https://babeljs.io/docs/en/babel-preset-env#docsNav)
+* [Сore JS](https://github.com/zloirock/core-js#readme)
+* [PostCSS](https://postcss.org/)
+* [Define plugin](https://webpack.js.org/plugins/define-plugin/)
+* [Style loader](https://github.com/webpack-contrib/style-loader)
+* [Optimize CSS assets](https://www.npmjs.com/package/optimize-css-assets-webpack-plugin)
+* [File loader](https://github.com/webpack-contrib/file-loader)
+* [Image Webpack loader](https://www.npmjs.com/package/image-webpack-loader)
+* [Cross-Env](https://www.npmjs.com/package/cross-env)
 ---
 ### Инструкции по запуску:
 * Скачать или склонировать репозиторий
