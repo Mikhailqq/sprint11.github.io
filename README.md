@@ -1,6 +1,6 @@
 # sprint 11
 ---
-## v.0.0.5
+## v.0.0.6
 ---
 ## Стек технологий
   ES6, Babel, OOP, CSS3, HTML5, Webpack, OOP, BEM
