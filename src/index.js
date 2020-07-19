@@ -1,11 +1,14 @@
 import './pages/index.css'
 
-import {Api} from './js/Api.js'
-import {Card} from './js/Card.js'
-import {CardList} from './js/CardList.js'
-import {FormValidator} from './js/FormValidator.js'
-import {Popup} from './js/Popup.js'
-import {UserInfo} from './js/UserInfo.js'
+import {Api} from './js/Api.js';
+import {Card} from './js/Card.js';
+import {CardList} from './js/CardList.js';
+import {FormValidator} from './js/FormValidator.js';
+import {Popup} from './js/Popup.js';
+import {UserInfo} from './js/UserInfo.js';
+
+
+
 
 (function () {
 
@@ -43,6 +46,8 @@ import {UserInfo} from './js/UserInfo.js'
     'Content-Type': 'application/json'
   }
  }
+const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort11/' : 'https://praktikum.tk/cohort11/';
+
 
 // Загрузка карточек с сервера
  const api = new Api(options);
