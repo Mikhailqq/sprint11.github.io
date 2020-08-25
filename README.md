@@ -1,4 +1,4 @@
-# MESTO-RUSSIA (REST API)
+# MESTO-RUSSIA (REST API + Webpack + Babel)
 ---
 ## v.0.0.6
 ---
@@ -26,4 +26,4 @@
 * Разместить production-билд на github pages — ```<npm run deploy>```
 ---
 ### Ссылка:
- https://mikhailqq.github.io/Mesto/Mesto
+ https://mikhailqq.github.io/Service-Mesto/
