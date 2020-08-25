@@ -26,4 +26,4 @@
 * Разместить production-билд на github pages — ```<npm run deploy>```
 ---
 ### Ссылка:
- https://mikhailqq.github.io/Mesto/Mesto
+ https://mikhailqq.github.io/Service-Mesto/
