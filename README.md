@@ -1,9 +1,9 @@
-# sprint 11
+# MESTO-RUSSIA (REST API)
 ---
 ## v.0.0.6
 ---
-## Стек технологий
-  ES6, Babel, OOP, CSS3, HTML5, Webpack, OOP, BEM
+## Stack:
+  HTML5, CSS3, ES6, OOP, Webpack, Babel, BEM.
 ---
 ### Пакеты которые используются в сборках:
 * [Babel CLI](https://babeljs.io/docs/en/babel-cli#docsNav)
