@@ -18,46 +18,7 @@ module.exports = {
         alias: {
             images: path.resolve(__dirname, 'src/images/'),
         },
-    },
-    // module: {
-    //     rules: [{
-    //             test: /\.js$/,
-    //             exclude: /node_modules/,
-    //             use: {
-    //                 loader: "babel-loader",
-    //                 options: {
-    //       presets: ['@babel/preset-env'],
-    //       plugins: ['@babel/plugin-proposal-class-properties']
-    //     }
-    //             }
-    //         },
-    //         {
-    //             test: /\.css$/i,
-    //     use: [isDev ? 'style-loader' : MiniCssExtractPlugin.loader, {
-    //       loader: "css-loader",
-    //       options: {
-    //         importLoaders: 2
-    //       }
-    //     }, 'postcss-loader'],
-    //         },
-    //         {
-    //             test: /\.(png|jpe?g|svg|gif)$/i,
-    //             use: [{
-    //                 loader: 'file-loader?name=./images/[name].[ext]',
-    //                 options: {
-    //                     esModule: false,
-    //                 },
-
-    //             }, ],
-    //         },
-    //         {
-    //             test: /\.(eot|ttf|woff|woff2)$/,
-    //             loader: 'file-loader?name=./vendor/[name].[ext]'
-    //         },
-
-
-    //     ]
-    // },
+    },    
     module: {
         rules: [{
                 test: /\.js$/,

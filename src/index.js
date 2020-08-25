@@ -38,15 +38,16 @@ import {UserInfo} from './js/UserInfo.js';
  const popupEdit = new Popup(document.querySelector(".popup__edit"));
  const popupPicture = new Popup(document.querySelector(".popup__picture"));
  
+const serverUrl ='https://nomoreparties.co';
 
  const options = {
-  baseUrl: 'https://praktikum.tk/cohort11',
+  baseUrl: `${serverUrl}/cohort11`,
   headers: {
     authorization: '0d9f8687-7573-4d8c-b8dd-f82bc1e56c86' ,
     'Content-Type': 'application/json'
   }
  }
-const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort11/' : 'https://praktikum.tk/cohort11/';
+
 
 
 // Загрузка карточек с сервера

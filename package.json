@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mikhailqq/sprint11.github.io.git"
+    "url": "git+https://github.com/Mikhailqq/Service-Mesto.git"
   },
-  "author": "",
+  "author": "Mikhail Kukushkin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mikhailqq/sprint11.github.io/issues"
+    "url": "https://github.com/Mikhailqq/Service-Mesto/issues"
   },
-  "homepage": "https://github.com/Mikhailqq/sprint11.github.io",
+  "homepage": "https://github.com/Mikhailqq/Service-Mesto/",
   "devDependencies": {
     "@babel/cli": "7.10.5",
     "@babel/core": "7.10.5",
@@ -44,5 +44,10 @@
     "babel-polyfill": "6.26.0",
     "core-js": "3.4.1",
     "dotenv": "8.2.0"
+  },
+   "babel": {
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
   }
 }
