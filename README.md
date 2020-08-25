@@ -1,4 +1,4 @@
-# MESTO-RUSSIA (REST API)
+# MESTO-RUSSIA (REST API + Webpack + Babel)
 ---
 ## v.0.0.6
 ---
