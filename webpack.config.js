@@ -19,55 +19,46 @@ module.exports = {
             images: path.resolve(__dirname, 'src/images/'),
         },
     },    
-    module: {
-        rules: [{
-                test: /\.js$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: "babel-loader",
-                    options: {
-                        presets: ['@babel/preset-env'],
-                        plugins: ['@babel/plugin-proposal-class-properties']
-                    }
-                }
-            },
-            {
-                test: /\.css$/,
-                use: [
-                    isDev ? "style-loader" : {
-                        loader: MiniCssExtractPlugin.loader,
-                        options: {
-                            publicPath: '../'
-                        }
-                    },
-                    {
-                        loader: "css-loader",
-                        options: {
-                            importLoaders: 2,
-                        },
-                    },
-                    "postcss-loader",
-                ],
-            },
-            {
-                test: /\.(png|jpg|gif|ico|svg)$/,
-                use: [
-                    "file-loader?name=./images/[name].[ext]?",
-                    {
-                        loader: "image-webpack-loader",
-                        options: {},
-                    },
-                ],
-            },
-            {
-                test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
-                loader: "file-loader",
-                options: {
-                    name: "./fonts/[name].[ext]",
-                },
-            },
-        ]
-    },
+   module: {
+    rules: [
+      { 
+        test: /\.js$/, 
+        use: {
+          loader: "babel-loader"
+        }, 
+        exclude: /node_modules/ 
+      },
+      {
+        test: /\.css$/i,
+        use: [
+          (isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
+          {
+            loader:'css-loader',
+            options: {
+                importLoaders: 2
+            } 
+          },
+          'postcss-loader'
+        ],
+      },
+      {
+        test: /\.(png|jpe?g|gif|ico|svg)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'images/[name].[ext]',
+              esModule: false
+            }
+          }, 
+        ],
+      },
+      {
+        test: /\.(eot|ttf|woff|woff2)$/,
+        loader: 'file-loader?name=./vendor/[name].[ext]'
+      }
+    ],
+  },
     plugins: [
         new MiniCssExtractPlugin({ // 
             filename: './styles/[name].[contenthash].css',
